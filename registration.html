@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<head>
+	<title>registrationpage</title>
+<style>
+label {
+	width: 100px;
+	display: inline-block;
+}	
+input[type = test] {
+	margin:5px 0 25px 0;
+	height:10px;
+	border-style:groove;
+	background: #f4f4f4;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.requried {
+	padding: 16px;
+	background-color: f4f4f4;
+}
+hr {
+	border: ipx soild #f4f4f4;
+	margin:5px 0 25px 0;
+}
+</style>
+</head>
+<body>
+
+	<a href="https://www.iiit.ac.in/">
+<img src="https://www.iiit.ac.in/img/iiit-new.png" alt="iiit" style="width:100px;height:100px;">
+</a>
+<a style="float: right; href="https://serc.iiit.ac.in/rdip">
+<h3><strong><u> RDIP</u></strong></h3>
+</a>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+  	<div class="navbar-header">
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li ><a href="./homepage.html">Home</a></li>
+      <li class="active"><a href="./registration.html">Registration Form</a></li>
+    </ul>
+  </div>
+</nav>
+<div>
+	<form>
+		<div class="requried">
+			<hr>
+			<label for="fname"><b>First Name</b></label>
+            <input type="text" id="fname" required>
+            <br>
+            <label for="email"><b>Email</b></label>
+            <input type="text" id="email" required>
+            <br>
+            <label for="phone"><b>Phone No:</b></label>
+            <input type="text" id="phone" required>
+            <br>
+            <label for="gender"><b>Gender</b></label>
+    	        <input type="radio" name="gender" value="male"> Male
+	            <input type="radio" name="gender" value="female"required> Female
+	            <input type="radio" name="gender" value="other"> Other
+	            <br>
+            <label for="reason" ><b>Reason</b></label>
+    
+	          <input type="radio" name="reason" value="html" required> HTML
+	          <input type="radio" name="reason" value="css"> CSS
+	          <input type="radio" name="reason" value="javascript"> JAVA SCRIPT
+	          <br>
+	       <input type="checkbox" value="agree" required>&ensp; &ensp;
+	           I declare above given details are given by me are true
+	           <br>
+	        <button type="submit" class="registration">submit</button>
+	        &ensp;
+	        &ensp;
+	        &ensp;
+
+    <button style="justify-content: center; align-items: center;" type="reset" class="reset">Reset</button>
+  </div>
+</form>
+</body>
+</html>
+</div>
+
+
+
